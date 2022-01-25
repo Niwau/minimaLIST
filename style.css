@@ -1,0 +1,71 @@
+
+header{
+    text-align: center;
+    font-family: Krub;
+    color: rgba(47, 47, 47, 0.3);
+    font-size: 30px;
+}
+
+button{
+    top: -35px;
+    position: relative;
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    outline: none;
+    transition: 1s;
+    background-color: rgba(47, 47, 47, 0.3);
+}
+
+button:hover{
+    background-color: rgba(137, 139, 46, 0.356);
+    cursor: pointer;
+}
+
+span{
+    color: rgba(47, 47, 47, 0.548);
+}
+
+input{
+    top: -30px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    transition: 1s;
+    background-color: rgba(47, 47, 47, 0.3);
+}
+
+input:hover{
+    background-color: rgba(137, 139, 46, 0.356);
+}
+
+
+#container{
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    transition: 1s;
+    padding: 10px;
+}
+#container:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: Krub;
+    color: rgba(47, 47, 47, 0.3);
+    font-size: 30px;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+p:hover{
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(137, 139, 46, 0.356);
+}
